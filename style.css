@@ -1,0 +1,90 @@
+/* <style>
+@import url('https://fonts.googleapis.com/css2?family=Ma+Shan+Zheng&display=swap');
+</style> */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background: linear-gradient(50deg, rgb(163, 240, 11), rgb(233, 36, 36));
+  display: flex;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+
+  transition: 0.5s ease-in;
+}
+
+.container {
+  display: flex;
+
+  background: linear-gradient(-45deg, rgb(144, 207, 236), rgb(235, 37, 116));
+  flex-direction: column;
+  align-items: center;
+  padding: 30px;
+  width: 600px;
+  margin: 10px;
+  box-shadow: 1px 10px 10px;
+  border-radius: 20px;
+  /* background: #fff; */
+  text-align: center;
+}
+.fa-quote-left,
+.fa-quote-right {
+  font-size: 25px;
+  color: #250ef3;
+}
+.quote {
+  color: white;
+  font-size: 30px;
+  font-weight: bold;
+  font-family: sans-serif;
+  font-family: "Ma Shan Zheng", cursive;
+}
+.author {
+  /* margin: 0px 0px 10px 0px; */
+  margin-top: -1px;
+  margin-left: 250px;
+  font-size: 20px;
+  font-weight: bold;
+  font-family: "Raleway", sans-serif;
+  color: #f50a9b;
+}
+hr {
+  margin: 10px 0;
+  width: 100%;
+
+  border: 1px solid black;
+  background: black;
+  border-radius: 5px;
+}
+.buttons {
+  /* background-color: blue; */
+  width: 100%;
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+  justify-content: space-around;
+}
+.next {
+  font-size: 18px;
+  padding: 10px 20px;
+  color: #fff;
+
+  margin: top 5px;
+  background-color: rgb(226, 141, 44);
+  cursor: pointer;
+  font-weight: bold;
+  border: 2px solid #b74096;
+  border-radius: 13px;
+  transition: 0.6s ease;
+}
+
+.next:hover {
+  /* transform: scale(1.1); */
+  transform: translateY(3px);
+  color: #000;
+  box-shadow: 1px 5px 10px;
+  background-color: rgb(118, 247, 124);
+}
